@@ -168,6 +168,10 @@ nav{
 
 }
 
+.large-container{
+    padding-left: 7%;
+
+}
 .banner{
     width: 100%;
 }
@@ -188,7 +192,7 @@ nav{
 
 .vid-list .thumbnail{
     width: 100%;
-    border-radius: 5%;
+    border-radius: 5px;
     
 
 
@@ -202,4 +206,53 @@ nav{
 .flex-diva img{
     width: 35px;
     border-radius: 50%;
+    margin-right:10PX ;
+}
+
+.vid-info{
+    color: black;
+    font-size: 13px;
+
+}
+
+
+.vid-info a{
+    color: black;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 900px){
+    .menu-icon{
+        display: none;
+
+    }
+    .sidebar{
+        display: none;
+    }
+    .container, .large-container{
+        padding-left:5%;
+        padding-right: 5%;
+
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 30px;
+    }
+    .nav-middle .search-box input{
+        width: 100%;
+
+
+    }
+    .nav-middle .mic-icon{
+        display: none;
+    }
+    .logo{
+        width: 90px;
+        
+    }
 }
